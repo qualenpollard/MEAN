@@ -46,7 +46,7 @@ block content
                   each review in location.reviews
                     span.rating
                       +outputRating(review.rating)
-                    span.reviewAuthor= review.author
+                    span.reviewAuthor= review.author 
                     small.reviewTimestamp= review.timestamp
                     .col-12
                       p= review.reviewText
